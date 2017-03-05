@@ -1,0 +1,19 @@
+<a class="btn btn-lg btn-primary" href="#/usuario-add"> Novo Usuário </a>
+<table class="table">
+	<tr>
+		<th>
+			Nome
+		</th>
+		<th>
+			Idade
+		</th>
+	</tr>
+	<tr ng-repeat="usuario in usuarios">
+		<td>
+			{{usuario.nome}}
+		</td>
+		<td>
+			{{usuario.idade}}
+		</td>
+	</tr>
+</table>

@@ -1,0 +1,16 @@
+{
+  "name": "AngularClient",
+  "description": "Meu projeto com AngularJS sendo cliente e Laravel sendo server",
+  "main": "main.js",
+  "authors": [
+    "Nataniel Paiva"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cursoLaravel",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-resource": "~1.4.0",
+    "bootstrap":"~3.3.7"
+  }
+}
